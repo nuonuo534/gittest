@@ -1,0 +1,228 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+.safeguard .row {
+  color: #808080;
+  padding: 30px 0;
+}
+
+.safeguard .row .media {
+  display: block;
+  padding: 20px 0;
+}
+
+.safeguard .row .media span {
+  font-size: 40px;
+}
+
+.safeguard .row .media h4 {
+  font-size: 22px;
+}
+
+.safeguard .row .media:hover {
+  color: red;
+}
+
+.wait {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 80px;
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+.wait a {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+
+.sell_card {
+  margin-top: 15px;
+  color: gray;
+  height: 179px;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0px 0px 3px 2px #ccc;
+          box-shadow: 0px 0px 3px 2px #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sell_card .wjsfont {
+  position: absolute;
+  top: 15px;
+  font-size: 40px;
+}
+
+.sell_card .card_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+
+.sell_card .card_progress {
+  width: 50%;
+}
+
+.sell_card .card_rate {
+  position: relative;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  border-left: 1px dashed #000;
+}
+
+.sell_card .card_rate div {
+  width: 80px;
+  margin-bottom: 8px;
+}
+
+.sell_card .card_rate div span:nth-child(1) {
+  color: green;
+  border: 1px solid green;
+}
+
+.sell_card .card_rate div span:nth-child(2) {
+  color: red;
+  border: 1px solid red;
+  margin-left: 5px;
+}
+
+.sell_card .card_rate::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  -webkit-box-shadow: 0px 3px 3px 1px #ccc;
+          box-shadow: 0px 3px 3px 1px #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.sell_card .card_rate::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  -webkit-box-shadow: 0px -3px 3px 1px #ccc;
+          box-shadow: 0px -3px 3px 1px #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.sell_card_hot {
+  color: white;
+  background-color: red;
+}
+
+.sell_card:hover {
+  text-decoration: none;
+}
+
+.label_news {
+  padding: 20px;
+}
+
+.label_news .row .all_news {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid #000;
+}
+
+.label_news .row .all_news::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  bottom: -5px;
+  right: -10px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.label_news .row .news_nav {
+  position: relative;
+}
+
+.label_news .row .news_nav .line {
+  position: absolute;
+  left: 54px;
+  height: 450px;
+  border-right: 1px dashed #000;
+}
+
+.label_news .row .news_nav li {
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+
+.label_news .row .news_nav li .wjsfont {
+  color: white;
+  background-color: #cccccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.label_news .row .news_nav li .wjsfont:hover {
+  background-color: red;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer ul a {
+  font-size: 80px;
+  color: gray;
+  border-bottom: 3px solid transparent;
+}
+
+footer ul a:hover {
+  color: #23527c;
+  border-bottom: 3px solid #23527c;
+}
+/*# sourceMappingURL=index.css.map */
